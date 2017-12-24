@@ -1,2 +1,8 @@
 # Morse-commandline
-Command line Morse messages and symbols
+Command line application for Morse messages and symbols.
+
+
+
+```
+node app
+```
