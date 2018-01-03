@@ -15,12 +15,11 @@ rl.on('line', (input) => {
     console.log('Type your message:')
     rl.on('line', (input) => {
      let morseResponse = [];
-     counter=0;
 
      for(let i of input){
-      let r=i.toUpperCase();
-      morseResponse.push(code[r]);
-      console.log(r+'   '+code[r]);
+      let letterUpperCase=i.toUpperCase();
+      morseResponse.push(code[letterUpperCase]);
+      console.log(letterUpperCase+'   '+code[letterUpperCase]);
      }
 
      let resp="";
